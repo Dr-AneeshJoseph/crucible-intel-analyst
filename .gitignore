@@ -1,0 +1,32 @@
+# --- Security (CRITICAL) ---
+.env
+.env.local
+secrets.json
+api_keys.txt
+
+# --- Python Build & Runtime ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+dist/
+build/
+*.egg-info/
+
+# --- Virtual Environments ---
+venv/
+env/
+.venv/
+
+# --- Testing & Quality ---
+.pytest_cache/
+.coverage
+htmlcov/
+
+# --- OS Junk ---
+.DS_Store
+Thumbs.db
+
+# --- IDE Settings ---
+.vscode/
+.idea/
